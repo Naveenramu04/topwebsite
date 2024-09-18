@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Gabarito',sans-serif;
+}
+.navbar{
+    padding:10px;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: solid 1px black;
+    gap:10px;
+    align-items: center;
+}
+.nt1{
+    color:rgb(164, 53, 240) ;
+}
+.ns2{
+    border:1px solid black;
+    padding: 10px;
+    border-radius:30px;
+    width:60%;
+    display: flex;
+    gap: 10px;
+}
+.ns2 input{
+    border: none;
+    width:100%;
+    font-size:16px;
+}
+.ns2 input:focus{
+    outline: none ;
+}
+.ns3{
+    display:flex;
+    gap:10px;
+}
+.cat{
+    display:flex;
+    gap:10px;
+    justify-content: space-around;
+    border-bottom:1px solid black;
+    padding: 10px;
+}
+.cat p{
+    background:rgb(164, 53, 240);
+    border-radius:30px;
+    padding: 10px;
+}
+img{
+    width:100%;
+    height:500px;
+}
+.card1{
+    padding: 20px;
+}
+.cm_1{
+    width:250px;
+    
+}
+.cm_1 img{
+    width:100%;
+    height:50%;
+}
+.cm1{
+    display:flex;
+    justify-content: space-between;
+}
+.cm_1 p {
+    text-align: center;
+}
+.topic{
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+  flex-wrap: wrap;
+
+}
+.topic p{
+    border: 1px solid black;
+    padding: 10px;   
+    flex-grow:1;
+   flex-basis:25%;
+   text-align: center;
+}
+.popcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:10px;
+    margin-top:10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.fcont_1{
+    display: flex;
+    gap:50px;
+    padding:10px;
+}
+.fcont_2{
+    display: flex;
+justify-content: space-between;
+}
+.fcont_1 p{
+    margin: 10px;
+    align-items: center;
+}
